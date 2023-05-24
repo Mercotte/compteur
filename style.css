@@ -1,0 +1,87 @@
+body {
+  font-family: serif;
+  background-color: beige;
+  color: darkblue;
+  line-height: 2;
+  font-size: 1rem;
+  display: block;
+  justify-content: center;
+}
+.container {
+  display: block;
+  text-align: center;
+  place-items: center;
+}
+h1 {
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-family: serif;
+  font-size: 2rem;
+  display: block;
+  color: darkblue;
+}
+#value {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.btn-incrementer {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem 1rem;
+  background-color: transparent;
+  box-shadow: 0 3px 3px darkslategray;
+  color: darkblue;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.3rem;
+  display: inline-block;
+  margin: 1rem;
+  border: 2px darkblue solid;
+}
+.btn-incrementer:hover {
+  color: white;
+  background: darkblue;
+  border: 2px white solid;
+}
+.btn-reset {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem 1rem;
+  background-color: transparent;
+  box-shadow: 0 10px 10px darkslategray;
+  color: darkblue;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.3rem;
+  display: inline-block;
+  margin: 1rem;
+  border: 2px darkblue solid;
+}
+.btn-reset:hover {
+  color: white;
+  background: darkblue;
+  border: 2px white solid;
+}
+.btn-decrementer {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem 1rem;
+  background-color: transparent;
+  box-shadow: 0 10px 10px darkslategray;
+  color: darkblue;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.3rem;
+  display: inline-block;
+  margin: 1rem;
+  border: 2px darkblue solid;
+  margin: 1rem;
+}
+.btn-decrementer:hover {
+  color: white;
+  background: darkblue;
+  border: 2px white solid;
+}
